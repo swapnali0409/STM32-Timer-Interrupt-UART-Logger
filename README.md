@@ -84,7 +84,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 }
 
 ```
-Why this project is useful
+## Why this project is useful
 
 This is a basic example to understand:
 
@@ -94,16 +94,18 @@ UART communication
 
 Instead of using delays, interrupts make the system more efficient.
 
-Limitations
+## Limitations
 Uses blocking UART (HAL_MAX_DELAY)
 No multiple tasks handling
 Fixed timing (1 second)
-Future improvements
+
+## Future improvements
 Use non-blocking UART (interrupt/DMA)
 Toggle LED along with message
 Add multiple timers
 Send different data dynamically
-Final note
+
+## Final note
 
 This project helped me understand how interrupts actually work in STM32.
 
