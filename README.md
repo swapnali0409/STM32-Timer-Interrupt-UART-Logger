@@ -82,6 +82,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         HAL_UART_Transmit(&huart2 ,(uint8_t*)msg, strlen(msg),HAL_MAX_DELAY);
     }
 }
+
+```
 Why this project is useful
 
 This is a basic example to understand:
